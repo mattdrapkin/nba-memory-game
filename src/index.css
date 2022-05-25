@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  background-color: #17408B;
+  color: white;
+}
+
+.header-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.scoreboard {
+  background-color: #C9082A;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.card-container {
+  border: 5px solid #17408B;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.team-name {
+  color: white;
+  background-color: #17408B;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: 2px solid #C9082A
+}
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+  gap: 2rem;
+  font-size: 24px;
+}
